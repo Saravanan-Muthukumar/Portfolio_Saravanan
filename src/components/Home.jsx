@@ -16,19 +16,19 @@ const Home = () => {
         I am a full stack web developer speacializing in building full-stack web application using React, NodeJs, MySql
         </p>
         <div>
-        {/* <Link  to="work"  smooth={true} duration={500}>
+        <Link  to="work"  smooth={true} duration={500}>
             <button className='text-white group border-2 px-6 py-3 flex  items-center hover:border-pink-600 hover:bg-pink-600 '>View Work 
             <span>
               <HiArrowNarrowRight className='ml-3 group-hover:rotate-90 duration-300'/>
             </span>
             </button>
-            </Link> */}
-            <Link  to="work"  smooth={true} duration={500}>
+            </Link>
+            {/* <Link  to="work"  smooth={true} duration={500}>
             <div class="relative inline-flex  group ">
         <div
             class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
         </div>
-        <a href="#" title="Get quote now"
+        <a href="" title="Get quote now"
             class="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
             role="button">View my Work     <span>
               <HiArrowNarrowRight className='ml-3 group-hover:rotate-90 duration-300'/>
@@ -38,7 +38,7 @@ const Home = () => {
         
     </div>
         
-        </Link>
+        </Link> */}
         </div>
       </div>
     </div>
