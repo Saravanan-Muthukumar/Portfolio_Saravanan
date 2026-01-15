@@ -45,7 +45,7 @@ const ProjectSlider = ({
 
 {/* Description BELOW */}
 {description && (
-  <p className="text-gray-300 text-sm md:text-base mt-2 mb-6">
+  <p className="text-gray-300 text-sm md:text-base mt-6 mb-6">
     {description}
   </p>
 )}

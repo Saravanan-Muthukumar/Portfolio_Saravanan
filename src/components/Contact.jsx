@@ -28,7 +28,7 @@ const Contact = () => {
             Please submit the form or email me at msarvanm@gmail.com
           </p>
         </div>
-
+s
         <input
           className="p-2 bg-[#ccd6f6] w-full"
           type="text"

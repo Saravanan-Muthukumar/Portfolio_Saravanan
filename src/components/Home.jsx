@@ -13,7 +13,11 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7xl text-[#ccd6f6] animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black'>Saravanan</h1>
         <h2 className='text-4xl sm:text-7xl text-[#8892b0]'>I'm a Full Stack Developer</h2>
         <p className='text-[#8892b0] py-4 max-w-[700px] mb-10'>
-        I am a full stack web developer speacializing in building full-stack web application using React, NodeJs, MySql
+        II’m a Full-Stack Web Developer with hands-on experience building modern, scalable web applications using React.js, Tailwind CSS, Node.js, and MySQL. I enjoy turning real-world requirements into clean, functional, and user-friendly digital solutions.
+
+I have experience developing CRUD-based business applications, REST APIs, and responsive UIs, with deployments on DigitalOcean and Vercel. I focus on writing clean code, building reusable components, and creating applications that are both performant and easy to maintain.
+
+I’m continuously learning and improving my skills while working on real-world projects that strengthen my understanding of full-stack development.
         </p>
         <div>
         <Link  to="work"  smooth={true} duration={500}>

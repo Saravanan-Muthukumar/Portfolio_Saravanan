@@ -28,6 +28,7 @@ const Work = () => {
             title="ReactJS and NodeJS Application"
             demoLink="https://sarapharmaclient-production.up.railway.app/"
             codeLink="https://github.com/Saravanan-Muthukumar"
+            description = "A full-stack CRUD application built with React, Node.js, and MySQL, featuring REST APIs and cloud deployment."
           />
 
           <ProjectSlider
@@ -35,6 +36,7 @@ const Work = () => {
             title="Restaurant App (React + Node)"
             demoLink="https://restaurant-demo-frontend.vercel.app/"     // leave empty if you don't have link
             codeLink="https://github.com/Saravanan-Muthukumar"     // leave empty if you don't have link
+            description="A responsive restaurant web application built with React, Tailwind CSS, MySQL and Node.js, focused on clean UI and scalable backend, deployed in Vercel and Digital Ocean."
           />
         </div>
       </div>
