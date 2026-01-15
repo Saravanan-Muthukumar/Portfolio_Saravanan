@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { Link } from 'react-scroll';
 
@@ -24,6 +23,7 @@ const Navbar = () => {
                 <li><Link  to="skills"  smooth={true} duration={500}>Skills</Link></li>
                 <li><Link  to="work"  smooth={true} duration={500}>Works</Link></li>
                 <li><Link  to="contact"  smooth={true} duration={500}>Contact</Link></li>
+                <li><a href="/Sara_Resume.pdf" target='_blank' rel='noopener noreferrer'>Resume</a></li>
             </ul>
    
         {/* hamburger */}
@@ -38,27 +38,23 @@ const Navbar = () => {
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="skills"  smooth={true} duration={500}>Skills</Link></li>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="work"  smooth={true} duration={500}>Works</Link></li>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to="contact"  smooth={true} duration={500}>Contact</Link></li>
+                <li className='py-6 text-4xl'><a onClick={handleClick} href="/Sara_Resume.pdf" target='_blank' rel='noopener noreferrer'  smooth={true} duration={500}>Resume</a></li>
         </ul>
         {/* social icons */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0 '>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a href="" className='flex justify-between items-center w-full text-gray-300'>
+                    <a href="https://www.linkedin.com/in/saravanan-muthukumar-8bb71725a/" target='_blank' rel='noopener noreferrer' className='flex justify-between items-center w-full text-gray-300'>
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a href="" className='flex justify-between items-center w-full text-gray-300'>
+                    <a href="https://github.com/Saravanan-Muthukumar" target='_blank' rel='noopener noreferrer' className='flex justify-between items-center w-full text-gray-300'>
                         GitHub <FaGithub size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#35504a]'>
-                    <a href="" className='flex justify-between items-center w-full text-gray-300'>
-                        Email <HiOutlineMail size={30}/>
-                    </a>
-                </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a href="" className='flex justify-between items-center w-full text-gray-300'>
+                    <a href="/Sara_Resume.pdf" target='_blank' rel='noopener noreferrer' className='flex justify-between items-center w-full text-gray-300'>
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>
